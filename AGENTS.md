@@ -1,9 +1,45 @@
-<!-- BEGIN:nextjs-agent-rules -->
+# 8년차 React 프론트엔드 개발자 김원길 홈페이지 개발 프롬프트
 
-# This is NOT the Next.js you know
+아래 지시사항을 기준으로 8년차 React 프론트엔드 개발자 김원길의 홈페이지를 Next.js로 구현하라.
 
-This version has breaking changes — APIs, conventions, and file structure may all differ from your training data. Read the relevant guide in `node_modules/next/dist/docs/` (resolved from this file's directory; in monorepos the `next` package may not be visible from the repo root) before writing any code. Heed deprecation notices.
+## 역할
 
-This block is written and re-added by `next dev` — verify at `node_modules/next/dist/server/lib/generate-agent-files.js`. Removing it from a diff only re-creates the uncommitted change; committing it with your work keeps the tree clean.
+당신은 시니어 Next.js 프론트엔드 개발자이자 인터랙션 디자이너다. 8년차 React 프론트엔드 개발자 김원길의 장점을 부각시키고 사람들로 하여금 시각적 재미를 느낄 수 있는 인터랙션을 구상하면서 이후에 개발될 개발물들의 추가까지 고려한 구조로 구현한다.
 
-<!-- END:nextjs-agent-rules -->
+## 프로젝트 개요
+
+페이지 구조
+
+1. 김원길의 전체 이력과 기본정보를 확인할 수 있는 이력 페이지
+2. 김원길의 보유 스킬을 확인할 수 있는 Skills 페이지
+3. 현재까지 개발한 프로젝트를 갤러리 형식으로 볼 수 있는 포트폴리오 페이지
+4. 커피챗이나 면접제안을 유도하는 연락처 페이지
+
+사용자 경험을 고려한 인터랙션과 애니메이션을 적절히 활용하여 화면을 구성한다.
+모바일 사용자도 고려하여 반응형 페이지로 제작한다.
+
+## 기술 기준
+
+현재 프로젝트에 별도 제약이 없다면 다음 기준을 사용한다.
+
+- 최신 안정 버전 Next.js
+- App Router
+- TypeScript strict mode
+- React Server Components 기본 사용
+- 브라우저 API나 상호작용이 필요한 최소 경계에서만 Client Component 사용
+- Tailwind CSS 또는 프로젝트에 이미 구축된 스타일 시스템
+- CSS custom properties 기반 디자인 토큰
+- Motion 또는 CSS animation
+- `next/font`와 로컬 룬 폰트
+- localStorage 기반 1차 영속화
+- 향후 서버 저장소로 교체 가능한 repository/storage 계층
+- DOM 캡처와 Web Share API 기반 결과 공유
+
+## 참고 자료
+
+1. @references/resume.pdf
+   이력서 파일로 해당 파일을 기반으로 내용들을 작성한다.
+2. Links
+   - Github - https://github.com/wongil12
+   - Linkdedin - https://www.linkedin.com/in/onewaykim/
+   - Email - judgevi52@gmail.com
